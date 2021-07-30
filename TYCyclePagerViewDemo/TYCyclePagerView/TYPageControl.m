@@ -277,6 +277,10 @@
     }
 }
 
+- (CGSize)intrinsicContentSize {
+    return [self contentSize];
+}
+
 - (void)layoutSubviews {
     [super layoutSubviews];
     [self layoutIndicatorViews];
